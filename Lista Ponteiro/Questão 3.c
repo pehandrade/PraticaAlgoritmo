@@ -15,3 +15,4 @@ int main(void) {
     printf("%d\t%d\t%d\t%d\n", a, b, c, d);
     return 0;
 }
+//11      20      10      30
