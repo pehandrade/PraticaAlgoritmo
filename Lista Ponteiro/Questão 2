@@ -1,0 +1,10 @@
+//a)Erro.
+//b)Pois a variável p é um ponteiro, ele deve receber o endereço de uma variável.
+//c)Não
+//e)Sim
+int main(void) {
+int x, *p;
+x = 100;
+p = &x;
+printf(“Valor de p = %p \tValor de *p = %d”, p, *p);
+}

@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int *cria_var(){
+    int var=5;
+    return &var;
+}
+
+int main(){
+    int *ponteiro = cria_var();
+    printf("valor da variavel: %d",*ponteiro);
+    return 0;
+}
