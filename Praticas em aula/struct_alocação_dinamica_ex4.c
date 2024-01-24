@@ -34,7 +34,7 @@ int main(){
     struct professor *professor = (struct professor*) malloc (sizeof(struct professor));//Alocação dinamica da struct
     if(professor==NULL){//Teste da alocação na memória
         exit(1);
-    }
+    }   
     preenche(professor);
     imprime(professor);
     free(professor);
