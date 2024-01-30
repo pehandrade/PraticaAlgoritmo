@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "questão 2": "c"
+        "questão 2": "c",
+        "stdlib.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled",
     "cSpell.words": [
