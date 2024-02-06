@@ -1,0 +1,3 @@
+Pedro  7.0  aprovado 	 
+lucas  7.3  aprovado 	 
+3  3.0  reprovado 	 
