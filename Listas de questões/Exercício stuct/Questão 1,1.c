@@ -88,7 +88,7 @@ int main(void) {
         if (opcao == 1) {
             printf("Quantos novos funcionarios? ");
             scanf("%d", &quantidade_novos_funcionario);
-            novo_funcionario(&func, quantidade_novos_funcionario, &quantidade_funcionario);
+            novo_funcionario(func, quantidade_novos_funcionario, &quantidade_funcionario);
         }
     } while (opcao != 2);
 
@@ -120,7 +120,7 @@ int main(void) {
                 printf("Funcionario com identificador %d nao encontrado \n",identificador_busca);
             }
         }
-    }while(opcao==1)
+    }while(opcao==1);
     
     max_min_salario(&func, quantidade_funcionario);
     free(func);

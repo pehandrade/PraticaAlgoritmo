@@ -31,8 +31,8 @@ void matricula(int n,Aluno * recebe_dados()){
     Aluno * alunos=(Aluno*)malloc(n*sizeof(Aluno));
     
     int cont;
-    for(cont=0;cont<n;const++){
-
+    for(cont=0;cont<n;cont++){
+        
     }
 
 }
